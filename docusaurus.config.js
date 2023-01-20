@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Awesome AI Engineering',
   tagline: 'Build the best AI products with the best practices',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://breezeml.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,8 +16,10 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'breezeml', // Usually your GitHub org/user name.
+  projectName: 'breezeml.github.io', // Usually your repo name.
+  trailingSlash: false,
+  deploymentBranch: 'gh-pages',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -67,20 +69,27 @@ const config = {
           {to: '/docs/blog', label: 'Blog', position: 'left'},
           {to: '/docs/talk', label: 'Talk', position: 'left'},
           {to: '/docs/group', label: 'Group', position: 'left'},
-          {
-            type: 'doc',
-            docId: 'paper/intro',
-            position: 'left',
-            label: 'Paper',
-          },
-          {
-            type: 'doc',
-            docId: 'tutorial/MLOps_101',
-            position: 'left',
-            label: 'Tutorial',
-          },
+          {to: '/docs/paper/intro', label: 'Paper', position: 'left'},
+          {to: '/docs/tutorial/MLOps_101', label: 'Tutorial', position: 'left'},
+          // {
+          //   type: 'doc',
+          //   docId: 'paper/intro',
+          //   position: 'left',
+          //   label: 'Paper',
+          // },
+          // {
+          //   type: 'doc',
+          //   docId: 'tutorial/MLOps_101',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           // {to: '/docs/paper', label: 'Paper', position: 'left'},
+          {
+            href: 'https://breezeml.ai',
+            label: 'BreezeML',
+            position: 'right',
+          },
           {
             href: 'https://github.com/HuaizhengZhang/Awesome-System-for-Machine-Learning',
             label: 'GitHub',
@@ -95,8 +104,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Quick Start',
+                to: '/docs/quick_start',
               },
             ],
           },
@@ -104,12 +113,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'BreezeML',
+                href: 'https://breezeml.ai',
               },
               {
                 label: 'Twitter',
@@ -120,18 +125,18 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/HuaizhengZhang/Awesome-System-for-Machine-Learning',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} BreezeML, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -142,14 +147,14 @@ const config = {
 
 module.exports = config;
 
-module.exports = {
-  // ...
-  title: 'Awesome AI Engineering',
-  url: 'https://breezeml.github.io', // 你的网站 URL
-  baseUrl: '/',
-  projectName: 'breezeml.github.io',
-  organizationName: 'breezeml',
-  trailingSlash: false,
-  deploymentBranch: 'gh-pages',
-  // ...
-};
+// module.exports = {
+//   // ...
+//   title: 'Awesome AI Engineering',
+//   url: 'https://breezeml.github.io', // 你的网站 URL
+//   baseUrl: '/',
+//   projectName: 'breezeml.github.io',
+//   organizationName: 'breezeml',
+//   trailingSlash: false,
+//   deploymentBranch: 'gh-pages',
+//   // ...
+// };
