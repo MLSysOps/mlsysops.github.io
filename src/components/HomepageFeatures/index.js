@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Tutorial',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Experts from both academia and industry build a tutorial to help you understand AI engineering 
+        from data, model, and system perspectives.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Hands on Experience',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Collect many first-hand experiences from the industry, to help you improve your product design and 
+        land your AI models in production faster.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Opportunities',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        List the famous research groups in MLSys, to help you seek more chances. We are also planning to post job / internship opportunities 
+        for you to apply.
       </>
     ),
   },
