@@ -17,8 +17,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/quick_start">
-            AI Engineering Quickstart  - 30min ⏱️
+            to="https://breezeml.ai/">
+            Proudly supported by BreezeML
           </Link>
         </div>
       </div>
