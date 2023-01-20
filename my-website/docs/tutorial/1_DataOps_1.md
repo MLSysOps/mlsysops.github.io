@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Create a Document
+# 1. DataOps (1)
 
 Documents are **groups of pages** connected through:
 

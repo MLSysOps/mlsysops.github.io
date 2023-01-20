@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Awesome AI Engineering',
+  tagline: 'Build the best AI products with the best practices',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -57,21 +57,32 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Awesome AI Engineering',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
+          {to: '/docs/course', label: 'Course', position: 'left'},
+          {to: '/docs/blog', label: 'Blog', position: 'left'},
+          {to: '/docs/talk', label: 'Talk', position: 'left'},
+          {to: '/docs/group', label: 'Group', position: 'left'},
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'paper/intro',
+            position: 'left',
+            label: 'Paper',
+          },
+          {
+            type: 'doc',
+            docId: 'tutorial/MLOps_101',
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/docs/paper', label: 'Paper', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/HuaizhengZhang/Awesome-System-for-Machine-Learning',
             label: 'GitHub',
             position: 'right',
           },

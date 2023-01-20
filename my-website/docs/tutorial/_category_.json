@@ -1,0 +1,8 @@
+{
+  "label": "Tutorial",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn AI Engineering with our tutorials"
+  }
+}
