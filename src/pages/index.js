@@ -17,8 +17,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://github.com/HuaizhengZhang/Awesome-System-for-Machine-Learning">
-            Based on Awesome System for Machine Learning
+            to="/docs/quick_start">
+            Quick Start - 20min ⏱️
           </Link>
         </div>
       </div>

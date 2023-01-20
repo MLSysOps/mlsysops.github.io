@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Awesome AI Engineering',
   tagline: 'Build the best AI products with the best practices',
-  url: 'https://breezeml.github.io',
+  url: 'https://mlsysops.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'breezeml', // Usually your GitHub org/user name.
-  projectName: 'breezeml.github.io', // Usually your repo name.
+  organizationName: 'mlsysops', // Usually your GitHub org/user name.
+  projectName: 'mlsysops.github.io', // Usually your repo name.
   trailingSlash: false,
   deploymentBranch: 'gh-pages',
 
@@ -136,7 +136,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} BreezeML, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} MLSysOps, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
