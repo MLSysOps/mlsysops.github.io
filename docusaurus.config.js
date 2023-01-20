@@ -141,3 +141,15 @@ const config = {
 };
 
 module.exports = config;
+
+module.exports = {
+  // ...
+  title: 'Awesome AI Engineering',
+  url: 'https://breezeml.github.io', // 你的网站 URL
+  baseUrl: '/',
+  projectName: 'breezeml.github.io',
+  organizationName: 'breezeml',
+  trailingSlash: false,
+  deploymentBranch: 'gh-pages',
+  // ...
+};
