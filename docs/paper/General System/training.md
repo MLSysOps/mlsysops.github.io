@@ -1,6 +1,6 @@
 # Training System
 
-System for deep learning training. Currently, I only summarize some arxiv papers here and put accepted papers into [conference](note) section
+System for deep learning training. Currently, I only summarize some arxiv papers here and put accepted papers into [conference](https://github.com/HuaizhengZhang/Awesome-System-for-Machine-Learning/tree/master/note) section
 
 ## Survey
 
